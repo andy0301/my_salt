@@ -1,6 +1,6 @@
 base:
   '*':
-    - test.base
+    - env.base
   'host:test-salt-minion':
     - match: grain
-    - test.m1
+    - env.m1
